@@ -9,5 +9,5 @@ A java web project done with tomcat server and mysql database.
 4. html and css used for page design
 5. session used to track user shop cart whenever user login
 
-This is a 3 weeks school project done in pairwork
+This is a 3-week short school project done in pairwork
 
