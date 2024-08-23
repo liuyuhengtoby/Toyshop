@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Jelly Toy</title>
+  <style>
+    body {
+      background-image: url("/etoyshop_final/image/background.jpg");
+
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      font-family: 'Arial', sans-serif;
+      color: #000000;
+    }
+
+    h2 {
+      text-align: center;
+      color: #06213A;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      margin-top: 60px;
+    }
+
+    form {
+      width: 300px;
+      margin: 30px auto;
+      background: rgba(255, 255, 255, 0.5);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+
+    label {
+      margin-top: 10px;
+    }
+
+    input[type=text],
+    input[type=password] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+
+    input[type=submit],
+    button,
+    #register {
+      background-color: #5cacee;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      padding: 15px;
+      margin-top: 15px;
+      width: 100%;
+      box-sizing: border-box;
+      text-decoration: none;
+      display: block;
+    }
+
+    input[type=submit]:hover,
+    button:hover,
+    a:hover {
+      background-color: #3b82f6;
+    }
+
+    .link,
+    .msg {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Welcome to Jelly Toy</h2>
+
+  <form method="get" action="login">
+    Enter the followings:<br />
+    <br/>
+    <label for="username">User name:</label>
+    <input type="text" id="username" name="username"><br />
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br />
+    <input type="submit" value="Login">
+    <a id="register" href="register.html" target="_blank">Register</a>
+  </form>
+
+  <p class="link"><a href='start'>Back to shop</a></p>
+
+</body>
+
+</html>

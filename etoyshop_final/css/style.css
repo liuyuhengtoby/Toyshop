@@ -1,0 +1,113 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.link, .msg {
+    text-align: center;
+}
+
+#add, #remove {
+    color: black;
+    background-color: #ddd;
+}
+
+#add:hover, #remove:hover {
+    color: white;
+    background-color: #757575;
+}
+
+
+body {
+    background-image: url('/jellycatpic/background.jpg');
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid;
+    border-color: #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+
+    width: 200px;
+    height: 200px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #5cacee;
+}
+
+#search  {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color: #000;
+}
+
+label {
+    display: block;
+    float:left;
+    margin: 10px 10px;
+}
+
+input[type=text], input[type=password], input[type=submit], input[type=reset] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+input[name=pr_min], input[name=pr_max] {
+    width: 20%;
+    float: left;
+}
+
+input[type=submit] {
+    background-color: #5cacee;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #3b82f6;
+}
+
+input[type=reset] {
+    background-color: #ddd;
+    color: #000000;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    color: white;
+    background-color: #757575;
+}
