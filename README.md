@@ -1,5 +1,5 @@
 # Toyshop
-This is a java web project done with tomcat server and mysql database
+This is a java web project done with tomcat server and mysql database. /n
 what can be found in this project:
 1. a localhost tomcat server setted up
 2. mysql database used to store user information and stock information
